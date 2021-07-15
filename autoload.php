@@ -20,7 +20,7 @@ class Autoloader {
 
 		$file_parts = explode ( '\\', $class_name);
 //		 Do a reverse loop through $file_parts to build a path to the file.
-
+//		mapping through the namespace and change it to folder name.
 		$namespace = '';
 		$file_name = '';
 		$count = count( $file_parts ) - 1 ;
